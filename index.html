@@ -10,59 +10,62 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Redressed&display=swap"rel="stylesheet"/>
     <link rel="icon" href="./faicon/favicon-16x16.png" />
-    <title>Desafio Class 4</title>
+    <title>Entrega Projecto #2 </title>
   </head>
   <body>
     <header>
       <nav>
         <ul class="menu">
-          <li><a href="#">Quienes Somos</a></li>
-          <li><a href="#">Productos</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contactanos</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quienesomos.html">Quienes Somos</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contactanos.html">Contactanos</a></li>
+          <li><a href="ubicacion.html">Ubicacion</a></li>
+          
         </ul>
       </nav>
     </header>
     <main>
       <h3>Makeup</h3>
       <main class="container">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 1"></button>
+        <div class="img-carusel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 1"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/Makeup1.jpg" class="d-block w-100" alt="imagen1">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/Makeup2.jpeg" class="d-block w-100" alt="imagen2">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/Makeup3.jpeg" class="d-block w-100" alt="imagen3">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/Makeup4.jpeg" class="d-block w-100" alt="imagen4">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/Makeup5.jpeg" class="d-block w-100" alt="imagen5">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden"></span>
+            </button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./imagenes/Maquillaje.jpg" class="d-block w-100" alt="imagen1">
-            </div>
-            <div class="carousel-item">
-              <img src="./imagenes/Maquillaje2.jpg" class="d-block w-100" alt="imagen2">
-            </div>
-            <div class="carousel-item">
-              <img src="./imagenes/Maquillaje3.jpg" class="d-block w-100" alt="imagen3">
-            </div>
-            <div class="carousel-item">
-              <img src="./imagenes/Maquillaje4.jpg" class="d-block w-100" alt="imagen4">
-            </div>
-            <div class="carousel-item">
-              <img src="./imagenes/Maquillaje5.jpg" class="d-block w-100" alt="imagen5">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"></span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden"></span>
-          </button>
         </div>
-
-    </main>
 
       <div class="parrafos-header">
         <div class="parra parrafo1">
@@ -116,5 +119,10 @@
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-  </body>
+<footer>
+  <div class="container py-1">
+    <small>&copy; copyright leidymakeup 2022</small>
+  </div>    
+</footer>
+</body>
 </html>
